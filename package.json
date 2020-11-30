@@ -1,0 +1,19 @@
+{
+  "name": "telegram-bot-valera",
+  "version": "1.0.0",
+  "description": "Telegra Bot Valera!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderPotashko/telegram-bot-valera.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderPotashko/telegram-bot-valera/issues"
+  },
+  "homepage": "https://github.com/AlexanderPotashko/telegram-bot-valera#readme"
+}
