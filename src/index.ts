@@ -6,7 +6,7 @@ import { getUsers, saveUsers, findUser, findUserByUsername, findUserByIndex } fr
 let inProgress = false;
 
 (async () => {
-    const bot = new Telegraf('1349791894:AAELrSvkZzp6SBb2-9p852bCrW2cunzTxPw');
+    const bot = new Telegraf('TOKEN');
 
     bot.use((ctx, next) => {
         if(ctx.message) {
