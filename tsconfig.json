@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "strict": true,
+    "outDir": "./build",
+    "allowJs": false,
+    "target": "es2017",
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "lib": [
+      "es2019",
+      "dom"
+    ],
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "./index.ts",
+    "./src/*",
+    "./src/**/*",
+    "./tests/*",
+    "./tests/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "coverage",
+    "./tests/contract"
+  ],
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true
+}

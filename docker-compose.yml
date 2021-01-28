@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mongodb:
+    build:
+      context: ./dockerize/mongo
+    container_name: telegram-bot-valera 
+    env_file: .env
+    ports: ["27017:27017"]
+
+  application:
+    build:
+      context: .
+      dockerfile: ./dockerize/app/Dockerfile
+    container_name: telegram-bot-valera 
+    env_file: .env
+    ports: ["3000:3000"]
+    restart: always
+    depends_on:
+      - mongodb 
